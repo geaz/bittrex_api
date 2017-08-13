@@ -1,0 +1,11 @@
+language: elixir
+elixir:
+  - 1.2.0
+  - 1.3.0
+  - 1.5.0
+otp_release:
+  - 18.2
+env:
+  - MIX_ENV=test
+script:
+  - "mix do deps.get, test, compile"
