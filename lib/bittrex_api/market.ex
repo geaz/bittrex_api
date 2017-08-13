@@ -2,6 +2,10 @@ defmodule BittrexAPI.Market do
     import BittrexAPI
     alias BittrexAPI.Client
 
+    @moduledoc """
+    This module exposes functionality for all market functions of the [Bittrex API](https://bittrex.com/Home/Api)
+    """
+
     @spec buy_limit(binary, float, float, Client.t) :: BittrexAPI.response
     def buy_limit(market, quantity, rate, client) do 
         getp "market/buylimit?market=#{market}&quantity=#{quantity}&rate=#{rate}", client

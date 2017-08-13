@@ -2,6 +2,10 @@ defmodule BittrexAPI.Public do
     import BittrexAPI
     alias BittrexAPI.Client
 
+    @moduledoc """
+    This module exposes functionality for all public functions of the [Bittrex API](https://bittrex.com/Home/Api)
+    """
+
     @spec get_markets(Client.t) :: BittrexAPI.response
     def get_markets(client) do
         get "public/getmarkets", client

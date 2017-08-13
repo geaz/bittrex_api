@@ -2,6 +2,10 @@ defmodule BittrexAPI.Account do
     import BittrexAPI
     alias BittrexAPI.Client
 
+    @moduledoc """
+    This module exposes functionality for all account functions of the [Bittrex API](https://bittrex.com/Home/Api)
+    """
+
     @spec get_balances(Client.t) :: BittrexAPI.response
     def get_balances(client) do
         getp "account/getbalances?", client
