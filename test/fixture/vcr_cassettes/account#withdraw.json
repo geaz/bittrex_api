@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": { },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://bittrex.com/api/v1.1/account/withdraw"
+    },
+    "response": {
+      "body": "{\"success\":true,\"message\":\"\",\"result\":{\"uuid\":\"68eea770-93fa-4879-9886-decf98cfae17\"}}",
+      "headers": {
+        "Date": "Sun, 13 Aug 2017 10:32:55 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "private",
+        "Strict-Transport-Security": "max-age=15768000",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "Server": "cloudflare-nginx"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

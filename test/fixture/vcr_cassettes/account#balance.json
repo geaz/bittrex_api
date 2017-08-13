@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {},
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://bittrex.com/api/v1.1/account/getbalance"
+    },
+    "response": {
+      "body": "{\"success\":true,\"message\":\"\",\"result\":{\"Currency\":\"BTC\",\"Balance\":0.35557541,\"Available\":0.35557541,\"Pending\":0.00000000,\"CryptoAddress\":\"1EwWyePWXYBWDja3hm4pGeHrBQyoiLEgEy\"}}",
+      "headers": {
+        "Date": "Sun, 13 Aug 2017 10:28:58 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "private",
+        "Strict-Transport-Security": "max-age=15768000",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "Server": "cloudflare-nginx"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

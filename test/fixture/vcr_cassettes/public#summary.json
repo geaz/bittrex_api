@@ -1,0 +1,33 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://bittrex.com/api/v1.1/public/getmarketsummary"
+    },
+    "response": {
+      "body": "{\"success\":true,\"message\":\"\",\"result\":[{\"MarketName\":\"BTC-LTC\",\"High\":0.01259990,\"Low\":0.01082746,\"Volume\":178442.83636485,\"Last\":0.01136100,\"BaseVolume\":2100.97637347,\"TimeStamp\":\"2017-08-13T10:08:24.663\",\"Bid\":0.01132224,\"Ask\":0.01136100,\"OpenBuyOrders\":950,\"OpenSellOrders\":6556,\"PrevDay\":0.01236000,\"Created\":\"2014-02-13T00:00:00\"}]}",
+      "headers": {
+        "Date": "Sun, 13 Aug 2017 10:08:26 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=1",
+        "Expires": "Sun, 13 Aug 2017 10:08:26 GMT",
+        "Last-Modified": "Sun, 13 Aug 2017 10:08:25 GMT",
+        "Vary": "*",
+        "Strict-Transport-Security": "max-age=15768000",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "CF-Cache-Status": "HIT",
+        "Server": "cloudflare-nginx"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

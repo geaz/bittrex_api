@@ -1,0 +1,33 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://bittrex.com/api/v1.1/public/getticker"
+    },
+    "response": {
+      "body": "{\"success\":true,\"message\":\"\",\"result\":{\"Bid\":0.01132224,\"Ask\":0.01136100,\"Last\":0.01136100}}",
+      "headers": {
+        "Date": "Sun, 13 Aug 2017 10:08:25 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=1",
+        "Expires": "Sun, 13 Aug 2017 10:08:25 GMT",
+        "Last-Modified": "Sun, 13 Aug 2017 10:08:24 GMT",
+        "Vary": "*",
+        "Strict-Transport-Security": "max-age=15768000",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "CF-Cache-Status": "HIT",
+        "Server": "cloudflare-nginx"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

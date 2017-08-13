@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {},
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://bittrex.com/api/v1.1/account/getorder"
+    },
+    "response": {
+      "body": "{\"success\":true,\"message\":\"\",\"result\":{\"AccountId\":null,\"OrderUuid\":\"68eea770-93fa-4879-9886-decf98cfae17\",\"Exchange\":\"BTC-LTC\",\"Type\":\"LIMIT_BUY\",\"Quantity\":1000.00000000,\"QuantityRemaining\":1000.00000000,\"Limit\":0.00000226,\"Reserved\":0.00226000,\"ReserveRemaining\":0.00226000,\"CommissionReserved\":0.00000565,\"CommissionReserveRemaining\":0.00000565,\"CommissionPaid\":0.00000000,\"Price\":0.00000000,\"PricePerUnit\":null,\"Opened\":\"2017-08-13T10:15:28.75\",\"Closed\":\"2017-08-13T10:23:37.843\",\"IsOpen\":false,\"Sentinel\":\"a12d712e-df75-457d-9d99-9eba7df1f283\",\"CancelInitiated\":true,\"ImmediateOrCancel\":false,\"IsConditional\":false,\"Condition\":\"NONE\",\"ConditionTarget\":null}}",
+      "headers": {
+        "Date": "Sun, 13 Aug 2017 10:43:19 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "private",
+        "Strict-Transport-Security": "max-age=15768000",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "Server": "cloudflare-nginx"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

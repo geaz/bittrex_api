@@ -1,8 +1,6 @@
 defmodule BittrexAPITest do
-  use ExUnit.Case
+  use ExUnit.Case, async: false
+  use ExVCR.Mock, adapter: ExVCR.Adapter.Hackney
+  
   doctest BittrexAPI
-
-  test "greets the world" do
-    assert BittrexAPI.hello() == :world
-  end
 end

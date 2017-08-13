@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {},
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://bittrex.com/api/v1.1/account/getbalances"
+    },
+    "response": {
+      "body": "{\"success\":true,\"message\":\"\",\"result\":[{\"Currency\":\"BTC\",\"Balance\":0.35557541,\"Available\":0.35557541,\"Pending\":0.00000000,\"CryptoAddress\":\"1EwWyePWXYBWDja3hm4pGeHrBQyoiLEgEy\"},{\"Currency\":\"CVC\",\"Balance\":0.00000000,\"Available\":0.00000000,\"Pending\":0.00000000,\"CryptoAddress\":null},{\"Currency\":\"DASH\",\"Balance\":0.00000000,\"Available\":0.00000000,\"Pending\":0.00000000,\"CryptoAddress\":\"Xt1gnFVBAACKD6g1Pct7exeJyEGJrvfp1e\"},{\"Currency\":\"ETH\",\"Balance\":0.00000000,\"Available\":0.00000000,\"Pending\":0.00000000,\"CryptoAddress\":\"0xb4469f2e63db3f0e04581f6a30e14e7166b77c98\"},{\"Currency\":\"NEO\",\"Balance\":20.00000000,\"Available\":20.00000000,\"Pending\":0.00000000,\"CryptoAddress\":null},{\"Currency\":\"NXT\",\"Balance\":0.00000000,\"Available\":0.00000000,\"Pending\":0.00000000,\"CryptoAddress\":\"ee596e3186724294a9745e39457513e2fec875e5a18b43c5ba940518ef6a9b89\"},{\"Currency\":\"OMG\",\"Balance\":50.00000000,\"Available\":50.00000000,\"Pending\":0.00000000,\"CryptoAddress\":null},{\"Currency\":\"PPC\",\"Balance\":10.00000000,\"Available\":10.00000000,\"Pending\":0.00000000,\"CryptoAddress\":null},{\"Currency\":\"SC\",\"Balance\":3000.00000000,\"Available\":3000.00000000,\"Pending\":0.00000000,\"CryptoAddress\":\"faafbb0e5d43d12eb584f0a3d42c6cd75f7c74693c1f51deffa4b407f710a32f1e4e516cac5f\"},{\"Currency\":\"STORJ\",\"Balance\":0.00000000,\"Available\":0.00000000,\"Pending\":0.00000000,\"CryptoAddress\":null},{\"Currency\":\"XEM\",\"Balance\":0.00000000,\"Available\":0.00000000,\"Pending\":0.00000000,\"CryptoAddress\":\"fbe4f4d786b6468b83e\"}]}",
+      "headers": {
+        "Date": "Sun, 13 Aug 2017 10:26:53 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "private",
+        "Strict-Transport-Security": "max-age=15768000",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "Server": "cloudflare-nginx"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

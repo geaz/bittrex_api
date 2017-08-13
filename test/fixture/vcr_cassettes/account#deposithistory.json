@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": { },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://bittrex.com/api/v1.1/account/getdeposithistory"
+    },
+    "response": {
+      "body": "{\"success\":true,\"message\":\"\",\"result\":[{\"Id\":25638446,\"Amount\":0.04900000,\"Currency\":\"BTC\",\"Confirmations\":2,\"LastUpdated\":\"2017-08-07T13:11:46.06\",\"TxId\":\"6cfc4a0ed853d46a697172adf405310ee253dd7d515dcd20a8ac04eea7d42a40\",\"CryptoAddress\":\"1EwWyePWXYBWDja3hm4pGeHrBQyoiLEgEy\"},{\"Id\":25300436,\"Amount\":0.23808715,\"Currency\":\"ETH\",\"Confirmations\":42,\"LastUpdated\":\"2017-08-04T22:08:09.257\",\"TxId\":\"0x8a8dd8a1eca5ae24a90b668a50848b90ccbce52bcbb64e39b415a9a9f6ea53c5\",\"CryptoAddress\":\"0xb4469f2e63db3f0e04581f6a30e14e7166b77c98\"},{\"Id\":25275654,\"Amount\":6.00000000,\"Currency\":\"XEM\",\"Confirmations\":11,\"LastUpdated\":\"2017-08-04T17:29:29.58\",\"TxId\":\"7a047891581e7f255b7018ff6714e4099b93fa9155d7cfc7f60b3e2d7e9ce75f\",\"CryptoAddress\":\"fbe4f4d786b6468b83e\"},{\"Id\":25275509,\"Amount\":4990.00000000,\"Currency\":\"XEM\",\"Confirmations\":11,\"LastUpdated\":\"2017-08-04T17:27:28.263\",\"TxId\":\"f1c6583b42497e538f4904b4df30a870d86448235beb21f934ebed3625bcead1\",\"CryptoAddress\":\"fbe4f4d786b6468b83e\"},{\"Id\":25267228,\"Amount\":881.02501800,\"Currency\":\"XEM\",\"Confirmations\":11,\"LastUpdated\":\"2017-08-04T16:02:46.323\",\"TxId\":\"457dfe967588df0b54a5d92be856877fe1959cd7b390b1164baefa27929291b0\",\"CryptoAddress\":\"fbe4f4d786b6468b83e\"}]}",
+      "headers": {
+        "Date": "Sun, 13 Aug 2017 10:51:48 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "private",
+        "Strict-Transport-Security": "max-age=15768000",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Download-Options": "noopen",
+        "Server": "cloudflare-nginx"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
