@@ -1,25 +1,6 @@
 defmodule BittrexAPI.Client do
-    use GenServer
+    @enforce_keys [:api_key, :api_secret]
+    defstruct api_key: nil, api_secret: nil, url: "https://bittrex.com/api/v1.1/"
 
-    ## Client API
-
-    @doc """
-    Starts the Bittrex API Client
-    """
-    def start_link(opts) do
-        IO.puts "Server starting"
-        GenServer.start_link(__MODULE__, :ok, opts)
-    end
-
-    def lookup(name) do
-        GenServer.call(__MODULE__, {:test, name})
-    end
-
-    def handle_call({:test, name}, _from, state) do
-        {:reply, name, state}
-    end
-
-    def hello() do
-        IO.puts "Test"
-    end
+    @type t :: %__MODULE__{ api_key: binary, api_secret: binary, url: binary }
 end

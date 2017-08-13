@@ -1,15 +1,20 @@
 defmodule BittrexAPI do
-  use Application
+  use HTTPoison.Base
+  alias BittrexAPI.Client
 
-  def start(_type, _args) do
-    # List all child processes to be supervised
-    children = [
-      {BittrexAPI.Client, []}
-    ]
+  @type response :: nil | {integer, any} | Poison.Parser.t
 
-    # See https://hexdocs.pm/elixir/Supervisor.html
-    # for other strategies and supported options
-    opts = [strategy: :one_for_one, name: BittrexAPI.Supervisor]
-    Supervisor.start_link(children, opts)
+  @spec process_response(atom, HTTPoison.Response.t) :: response
+  def process_response(:ok, %HTTPoison.Response{status_code: 200, body: ""}), do: nil
+  def process_response(:ok, %HTTPoison.Response{status_code: 200, body: body}), do: Poison.decode!(body)
+  def process_response(:ok, %HTTPoison.Response{status_code: status_code, body: ""}), do: { status_code, nil }
+  def process_response(:ok, %HTTPoison.Response{status_code: status_code, body: body }), do: { status_code, Poison.decode!(body) }
+
+  @spec get(binary, Client.t) :: %{}
+  def get(url, _client = %Client {url: base_url}) do
+    base_url <> url
+    |> get
+    |> (&process_response(:ok, &1)).()
   end
+
 end
